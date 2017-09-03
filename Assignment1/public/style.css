@@ -1,0 +1,116 @@
+body{
+    background-image: url("http://localhost:4000/pattern.jpg");
+}
+.float_right{
+    font-family: "Comic Sans MS";
+    position: absolute;
+    right: 30px;
+    text-decoration: underline;
+    color: black;
+}
+.contain{
+    overflow: hidden;
+    width: 100%;
+    min-height: 36px; /* Remember absolute positioning is outside the page flow! */
+    position: relative;
+}
+
+.left-element1 {
+    color: green;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+}
+
+.left-element2 {
+    color: blue;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+}
+
+
+.middle-element {
+    position: absolute;
+    left: 50px;
+    top: 3px;
+}
+
+.ACTIVE {
+    color: blue;
+    font-family: "Comic Sans MS";
+}
+.COMPLETE {
+    color: green;
+    font-family: "Comic Sans MS";
+    text-decoration: line-through;
+}
+
+.DELETE{
+    color: red;
+    font-family: "Comic Sans MS";
+    text-decoration: line-through;
+}
+
+.right-element {
+    position: absolute;
+    right: 50px;
+    top: 3px;
+    width : 20px;
+}
+
+
+
+
+.box1 {
+    min-height: 75px;
+}
+
+.box2 {
+    background-color: white;
+}
+.box3{
+    background-image: url("http://localhost:4000/head.jpg");
+    text-align: center;
+    min-height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-family: "Comic Sans MS";
+}
+
+.heading{
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+
+.heading1 {
+    padding-top: 10px;
+    font-weight: lighter;
+    font-size: 20px;
+    font-family: "Comic Sans MS";
+}
+
+.border {
+    border-bottom: 1px inset black;
+    padding-bottom: 20px;
+}
+
+
+input[type=text] {
+    font-family: "Comic Sans MS";
+    padding: 6px 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+
+input[type=button] {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 6px 20px;
+}
